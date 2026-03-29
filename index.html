@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Content Management Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header with Masthead -->
+    <header class="header">
+        <div class="masthead">
+            <img src="images/masthead.jpg" alt="Website Masthead" class="masthead-image">
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">CMW</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome to Our Content Management Website</h1>
+            <p>Professional web solutions with secure HTTPS connection</p>
+        </section>
+
+        <!-- Search Bar -->
+        <section class="search-section">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Search website...">
+            <button onclick="searchWebsite()" class="search-btn">Search</button>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2>Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🔒 SSL Secure</h3>
+                    <p>HTTPS enabled for secure data transfer</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📱 Mobile Friendly</h3>
+                    <p>Responsive design on all devices</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌐 Multi-Browser</h3>
+                    <p>Compatible with all modern browsers</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔍 Search Ready</h3>
+                    <p>Quick search functionality included</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📊 News Module</h3>
+                    <p>Update and manage news easily</p>
+                </div>
+                <div class="feature-card">
+                    <h3>∞ Unlimited Data</h3>
+                    <p>200MB space with unlimited transfers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Links -->
+        <section class="social-section">
+            <h2>Connect With Us</h2>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank" class="social-link facebook">
+                    <span>Facebook</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-link twitter">
+                    <span>Twitter</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-link linkedin">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Content Management Website. All rights reserved. SSL Secure.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
